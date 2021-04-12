@@ -43,12 +43,20 @@ hr {
     min-width: 140px;
     max-width: max-content;
     padding: 0.5rem 1rem;
+    margin: 0.5rem;
     text-decoration: none;
 }
 
-.primary link {
+.primary-link {
     color: var(--brown);
     background-color: var(--primary);
     border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+}
+
+.secondary-link {
+    color: var(--brown);
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
     border-radius: 0.5rem;
 }
