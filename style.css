@@ -5,10 +5,50 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #374151;
+    --secondary: #F87171;
+    --brown: #92400E;
+    --white: #ffffff;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 }
 
 hr {
     margin: 2rem 0;
+}
+
+#title {
+    font-size: 2rem
+}
+
+
+/* containers */
+
+.container-fluid {
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+}
+
+.container {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+}
+
+.link {
+    min-width: 140px;
+    max-width: max-content;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.primary link {
+    color: var(--brown);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
 }
