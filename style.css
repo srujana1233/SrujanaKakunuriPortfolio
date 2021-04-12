@@ -66,10 +66,12 @@ hr {
 
 .navigation {
     background-color: var(--secondary);
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     color: var(--brown);
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .navigation .brand-name {
@@ -97,6 +99,25 @@ hr {
 }
 
 .link li a {
+    font-weight: 500;
+    color: #92400E;
+}
+
+.navigation .unlisted ul li a {
+    life-style: none;
+}
+
+.footer {
+    background-color: var(--secondary);
+    padding: 1rem 1rem;
+    color: var(--brown);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer li a {
     font-weight: 500;
     color: #92400E;
 }
