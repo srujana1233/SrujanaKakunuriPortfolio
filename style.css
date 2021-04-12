@@ -95,3 +95,8 @@ hr {
     font-weight: 500;
     color: var(--white);
 }
+
+.link li a {
+    font-weight: 500;
+    color: #92400E;
+}
