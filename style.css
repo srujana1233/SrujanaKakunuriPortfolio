@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root {
     --primary: #374151;
     --secondary: #F87171;
@@ -59,4 +53,45 @@ hr {
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
     border-radius: 0.5rem;
+}
+
+.unlisted {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0 0.5rem;
+}
+
+.navigation {
+    background-color: var(--secondary);
+    padding: 1rem 0rem;
+    color: var(--brown);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .brand-name {
+    font-weight: 700;
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding: 0 0.8rem;
+}
+
+.navigation ul li a {
+    font-weight: 500;
+    color: #92400E;
+}
+
+.navigation ul li a.active {
+    font-weight: 500;
+    color: var(--white);
 }
