@@ -42,14 +42,14 @@ hr {
 }
 
 .primary-link {
-    color: var(--brown);
+    color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
     border-radius: 0.5rem;
 }
 
 .secondary-link {
-    color: var(--brown);
+    color: var(--white);
     background-color: var(--secondary);
     border: 1px solid var(--secondary);
     border-radius: 0.5rem;
@@ -120,4 +120,22 @@ hr {
 .footer li a {
     font-weight: 500;
     color: #92400E;
+}
+
+.hero {
+    color: var(--primary);
+    display: block;
+}
+
+.hero img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero img.profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid var(--primary)
 }
