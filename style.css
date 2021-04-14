@@ -39,6 +39,11 @@ hr {
     padding: 0.5rem 1rem;
     margin: 0.5rem;
     text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.link:hover {
+    transform: scale(1.1);
 }
 
 .primary-link {
@@ -51,6 +56,18 @@ hr {
 .secondary-link {
     color: var(--white);
     background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    border-radius: 0.5rem;
+}
+
+.primary-link-outline {
+    color: grey;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+}
+
+.secondary-link-outline {
+    color: grey;
     border: 1px solid var(--secondary);
     border-radius: 0.5rem;
 }
@@ -72,10 +89,12 @@ hr {
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    position: relative;
 }
 
 .navigation .brand-name {
     font-weight: 700;
+    position: absolute;
 }
 
 .navigation ul {
@@ -107,21 +126,6 @@ hr {
     life-style: none;
 }
 
-.footer {
-    background-color: var(--secondary);
-    padding: 1rem 1rem;
-    color: var(--brown);
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-}
-
-.footer li a {
-    font-weight: 500;
-    color: #92400E;
-}
-
 .hero {
     color: var(--primary);
     display: block;
@@ -138,4 +142,44 @@ hr {
     width: 250px;
     border-radius: 50%;
     border: 1px solid var(--primary)
+}
+
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 600;
+}
+
+section.gray {
+    background-color: aqua;
+    color: #ffffff;
+}
+
+footer {
+    background-color: var(--secondary);
+    padding: 1rem 1rem;
+    color: var(--brown);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+footer h2 {
+    font-weight: 500;
+    color: #92400E;
+    font-size: larger;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: aliceblue;
 }
